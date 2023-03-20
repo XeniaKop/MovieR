@@ -204,22 +204,42 @@ nav ul li.btn span.show:before {
     transform: scale(1.2);
     margin: 0 30px;
 }
-.button-display-left {
-font-size: 70px;
+.movie-list-item-img {
+    transition: all 1s ease-in-out;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.arrow {
+    font-size: 120px;
     position: absolute;
-    top: 210px;
-    left: 0;
+    top: 90px;
+    right: 0;
+    color: lightgray;
     opacity: 0.5;
     cursor: pointer;
-    color: rgb(192, 36, 62);
 }
-.button-display-right {
-    font-size: 70px;
-        position: absolute;
-        top: 210px;
-        right: 0;
-        opacity: 0.5;
-        cursor: pointer;
-        color: rgb(192, 36, 62);
+h2 {
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+p {
+    padding: 10px 20px;
+    font-size: 18px;
+    width: 500px;
+    color: pink;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.info {
+    background-color:#222222;
+    margin: auto;
+    padding: 30px;
+    width: 600px;
+    border: 1px none #222222;
+    text-align: center;   
 }
 
